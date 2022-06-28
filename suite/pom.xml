@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ntarasov.maven</groupId>
+    <artifactId>suite</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>suite</name>
+    <url>http://maven.spache.org</url>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Nikita Tarasov</name>
+            <email>nikita.taras0ff@yandex.ru</email>
+            <organization>com.git.hub.NikeIT-BIT</organization>
+            <organizationUrl>https://github.com/NikeIT-BIT</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/NikeIT-BIT/ftl-maven-101</connection>
+        <developerConnection>scm:git:ssh://github.com:NikeIT-BIT/ftl-maven-101</developerConnection>
+        <url>https://github.com/NikeIT-BIT/ftl-maven-101</url>
+    </scm>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
